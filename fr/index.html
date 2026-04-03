@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clare Carmody — Resume</title>
+  <title>Clare Carmody — CV</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -64,7 +64,12 @@
     }
     .nav-links a:hover { color: var(--accent); }
     .lang-switch {
-      color: var(--accent) !important;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
       border: 1px solid var(--accent-light);
       padding: 0.25rem 0.6rem;
       border-radius: 2px;
@@ -149,13 +154,13 @@
       color: var(--white);
       border: 1px solid var(--accent);
     }
-    .btn-primary:hover { background: #175069; border-color: #175069; }
-    .btn-linkedin {
+    .btn-primary:hover { background: #a33468; border-color: #a33468; }
+    .btn-grey {
       background: #6b6b6b;
       color: var(--white);
       border: 1px solid #6b6b6b;
     }
-    .btn-linkedin:hover { background: #4a4a4a; border-color: #4a4a4a; }
+    .btn-grey:hover { background: #4a4a4a; border-color: #4a4a4a; }
     .btn-outline {
       background: transparent;
       color: var(--white);
@@ -293,7 +298,6 @@
       font-weight: 300;
     }
 
-    /* Sub-roles within one employer */
     .job-subroles { margin-top: 0.75rem; }
     .subrole { margin-bottom: 1.25rem; }
     .subrole-header {
@@ -313,7 +317,6 @@
       color: var(--grey);
     }
 
-    /* Earlier roles */
     .earlier-roles {
       margin-top: 2rem;
       padding: 1.5rem;
@@ -359,7 +362,7 @@
       transform: translateY(20px);
     }
     .skill-card.visible { opacity: 1; transform: translateY(0); }
-    .skill-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(29,91,121,0.12); }
+    .skill-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(192,66,122,0.12); }
     .skill-card-label {
       font-size: 0.72rem;
       font-weight: 500;
@@ -459,113 +462,110 @@
   <nav>
     <a href="#top" class="nav-logo">Clare Carmody</a>
     <ul class="nav-links">
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#education">Formation</a></li>
       <li><a href="mailto:clareelizabethcarmody@gmail.com">Contact</a></li>
-      <li><a href="/resume/fr/" class="lang-switch">FR</a></li>
+      <li><a href="/resume/" class="lang-switch">EN</a></li>
     </ul>
   </nav>
 
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero-inner">
-      <p class="hero-eyebrow">Open to senior operations and enablement roles</p>
+      <p class="hero-eyebrow">Ouverte aux postes seniors en opérations et enablement</p>
       <h1 class="hero-name">Clare<br><em>Carmody</em></h1>
-      <p class="hero-title">Operations Leader · Enablement Strategist · Program Builder</p>
+      <p class="hero-title">Responsable des Opérations · Stratège en Enablement · Créatrice de Programmes</p>
       <p class="hero-bio">
-        15+ years leading operations, enablement, and learning programs across enterprise SaaS,
-        nonprofit, and digital product companies. Combines deep facilitation expertise with
-        hands-on delivery — from scaling global enablement at Salesforce to CEO-level
-        transformation. Based between Paris and Melbourne. Fluent in English and French.
+        Plus de 15 ans à diriger les opérations, l'enablement et les programmes de formation dans des entreprises SaaS, des associations et des sociétés de produits numériques. Associe une expertise approfondie en facilitation à une exécution concrète — de l'enablement mondial chez Salesforce à la transformation au niveau direction générale. Basée entre Paris et Melbourne. Bilingue anglais et français.
       </p>
       <div class="hero-links">
-        <a href="https://www.linkedin.com/in/clarecarmody/" target="_blank" rel="noopener" class="btn btn-linkedin">LinkedIn</a>
-        <a href="mailto:clareelizabethcarmody@gmail.com" class="btn btn-outline">Email me</a>
+        <a href="https://www.linkedin.com/in/clarecarmody/" target="_blank" rel="noopener" class="btn btn-grey">LinkedIn</a>
+        <a href="mailto:clareelizabethcarmody@gmail.com" class="btn btn-outline">M'écrire</a>
       </div>
     </div>
-    <a href="#experience" class="hero-scroll">Scroll to explore</a>
+    <a href="#experience" class="hero-scroll">Défiler</a>
   </section>
 
   <!-- EXPERIENCE -->
   <section id="experience">
     <div class="section-inner">
-      <p class="section-label">Career history</p>
-      <h2 class="section-title">Experience</h2>
+      <p class="section-label">Parcours professionnel</p>
+      <h2 class="section-title">Expérience</h2>
 
       <div class="timeline">
 
         <!-- Melba -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Head of Product &amp; Operations</span>
+            <span class="job-title">Directrice Produit &amp; Opérations</span>
             <span class="job-org">Melba.app</span>
           </div>
-          <p class="job-dates">Sep 2025 – Present · Paris, France</p>
+          <p class="job-dates">Sept. 2025 – Présent · Paris, France</p>
           <ul class="job-bullets">
-            <li>Product and operations leadership for an audio wellness app with 1M+ users</li>
-            <li>Oversee product roadmap, content delivery, and day-to-day operations</li>
-            <li>Dotted-line management of 3 developers; drive cross-functional delivery</li>
+            <li>Direction produit et opérations pour une application audio de bien-être avec plus d'un million d'utilisateurs</li>
+            <li>Supervision de la roadmap produit, de la stratégie de contenu et des opérations au quotidien</li>
+            <li>Management en pointillé d'une équipe de 3 développeurs ; pilotage de la delivery transverse</li>
           </ul>
         </div>
 
         <!-- Founder School -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Head of Programs</span>
+            <span class="job-title">Responsable des Programmes</span>
             <span class="job-org">Founder School</span>
           </div>
-          <p class="job-dates">Jan 2023 – Mar 2026 · Remote</p>
+          <p class="job-dates">Janv. 2023 – Mars 2026 · À distance</p>
           <ul class="job-bullets">
-            <li>Ran operations and learning design for a leading incubator for early-stage founders in emerging technology sectors</li>
-            <li>Delivered 5 cohorts with a 4.8/5 Trustpilot rating</li>
-            <li>Developed new product lines: On Demand courses and alumni subscription tiers</li>
-            <li>Achieved 210% increase in revenue per student over tenure</li>
+            <li>Pilotage des opérations et de l'ingénierie pédagogique d'un incubateur de référence pour les fondateurs en technologies émergentes</li>
+            <li>Livraison de 5 cohortes avec une note de 4,8/5 sur Trustpilot</li>
+            <li>Développement de nouvelles offres : cours On Demand et abonnements alumni</li>
+            <li>Augmentation de 210 % du chiffre d'affaires par étudiant sur la période</li>
           </ul>
         </div>
 
         <!-- Salesforce -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Multiple Roles</span>
+            <span class="job-title">Plusieurs postes</span>
             <span class="job-org">Salesforce</span>
           </div>
-          <p class="job-dates">Mar 2016 – Sep 2025 · 9 yrs 7 mos · Sydney &amp; Melbourne, Australia</p>
+          <p class="job-dates">Mars 2016 – Sept. 2025 · 9 ans 7 mois · Sydney &amp; Melbourne, Australie</p>
           <div class="job-subroles">
 
             <div class="subrole">
               <div class="subrole-header">
                 <span class="subrole-title">Senior Manager, Enablement</span>
-                <span class="subrole-dates">Feb 2017 – Sep 2025</span>
+                <span class="subrole-dates">Févr. 2017 – Sept. 2025</span>
               </div>
               <ul class="job-bullets">
-                <li>Managed role-based training strategy and delivery for Customer Success internationally and Solution Engineering across APAC</li>
-                <li>Oversaw onboarding enablement as the team scaled from 1,000 to 8,000+ employees</li>
-                <li>Developed multimodal soft skills curricula: Storytelling, Leadership, Communication</li>
-                <li>Delivered 1,000+ in-person workshops at an average satisfaction of 4.75/5</li>
+                <li>Stratégie et déploiement de formations métiers pour le Customer Success à l'international et la Solution Engineering en APAC</li>
+                <li>Supervision de l'onboarding enablement lors de la croissance de l'équipe de 1 000 à plus de 8 000 collaborateurs</li>
+                <li>Conception et animation de parcours de soft skills multimodaux : Storytelling, Leadership, Communication</li>
+                <li>Plus de 1 000 ateliers animés en présentiel avec une satisfaction moyenne de 4,75/5</li>
               </ul>
             </div>
 
             <div class="subrole">
               <div class="subrole-header">
                 <span class="subrole-title">Senior Manager, Customer Success</span>
-                <span class="subrole-dates">Oct 2021 – Jun 2023</span>
+                <span class="subrole-dates">Oct. 2021 – Juin 2023</span>
               </div>
               <ul class="job-bullets">
-                <li>Led Digital Transformation Leadership training for Nonprofit Executives across Asia Pacific</li>
-                <li>Achieved 94% renewal rate across mid-market and enterprise portfolios</li>
-                <li>Awarded for outstanding contribution to services and license sales</li>
+                <li>Animation de formations sur la transformation numérique pour des dirigeants d'associations à travers l'Asie-Pacifique</li>
+                <li>Taux de renouvellement de 94 % sur les portefeuilles mid-market et enterprise</li>
+                <li>Récompensée pour contribution exceptionnelle aux ventes de services et de licences</li>
               </ul>
             </div>
 
             <div class="subrole">
               <div class="subrole-header">
                 <span class="subrole-title">Senior Business Analyst</span>
-                <span class="subrole-dates">Mar 2016 – Feb 2017</span>
+                <span class="subrole-dates">Mars 2016 – Févr. 2017</span>
               </div>
               <ul class="job-bullets">
-                <li>6× Salesforce certified: AI Specialist, Service Cloud, Platform App Builder, Sales Cloud, Advanced Admin</li>
-                <li>Supported large enterprises across diverse industries to build online communities</li>
+                <li>6 certifications Salesforce : AI Specialist, Service Cloud, Platform App Builder, Sales Cloud, Advanced Admin</li>
+                <li>Accompagnement de grandes entreprises dans la création de communautés en ligne</li>
               </ul>
             </div>
 
@@ -575,51 +575,51 @@
         <!-- SPELD -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Operations Manager → CEO</span>
+            <span class="job-title">Responsable des Opérations → Directrice Générale</span>
             <span class="job-org">SPELD Victoria</span>
           </div>
-          <p class="job-dates">Jun 2014 – Nov 2015 · Melbourne, Australia</p>
+          <p class="job-dates">Juin 2014 – Nov. 2015 · Melbourne, Australie</p>
           <ul class="job-bullets">
-            <li>Led 5 FTE staff and 30 specialist practitioners through a period of cultural revitalisation at this 50-year-old organisation</li>
-            <li>Drove digital transformation: CRM implementation and marketing automation</li>
-            <li>Doubled government investment and reversed an 8-year organisational decline</li>
-            <li>Achieved $600M advocacy outcome for students with learning difficulties</li>
+            <li>Direction d'une équipe de 5 collaborateurs et 30 praticiens spécialisés lors d'une période de revitalisation culturelle</li>
+            <li>Transformation digitale : déploiement CRM et automatisation marketing</li>
+            <li>Doublement des financements publics et redressement d'un déclin organisationnel de 8 ans</li>
+            <li>Résultat de plaidoyer de 600 M$ au bénéfice des élèves ayant des difficultés d'apprentissage</li>
           </ul>
         </div>
 
         <!-- St Martins -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Executive Producer &amp; General Manager</span>
+            <span class="job-title">Directrice de Production &amp; Directrice Générale</span>
             <span class="job-org">St Martins Youth Arts Centre</span>
           </div>
-          <p class="job-dates">Jul 2011 – Jun 2014 · Melbourne, Australia</p>
+          <p class="job-dates">Juil. 2011 – Juin 2014 · Melbourne, Australie</p>
           <ul class="job-bullets">
-            <li>Combined CMO, CFO, and fundraising responsibilities alongside operational leadership</li>
-            <li>Guided Australia's oldest youth arts centre through three years of sustained strategic growth</li>
+            <li>Responsabilités combinées de DAF, DG et directrice de la collecte de fonds</li>
+            <li>Accompagnement du premier centre d'arts pour jeunes d'Australie sur trois années de croissance stratégique</li>
           </ul>
         </div>
 
         <!-- PwC -->
         <div class="job">
           <div class="job-header">
-            <span class="job-title">Consultant Facilitator</span>
+            <span class="job-title">Consultante Facilitatrice</span>
             <span class="job-org">PwC</span>
           </div>
-          <p class="job-dates">Jan 2011 – Sep 2011 · Melbourne, Australia</p>
+          <p class="job-dates">Janv. 2011 – Sept. 2011 · Melbourne, Australie</p>
           <ul class="job-bullets">
-            <li>Facilitated design thinking and co-creation workshops for major Australian corporations and nonprofits as part of PwC's innovation practice</li>
+            <li>Animation d'ateliers de design thinking et de co-création pour de grandes entreprises australiennes et des associations au sein de la pratique innovation de PwC</li>
           </ul>
         </div>
 
         <!-- Earlier roles -->
         <div class="earlier-roles">
-          <p class="earlier-roles-label">Earlier roles</p>
+          <p class="earlier-roles-label">Expériences antérieures</p>
           <ul>
-            <li>Arts &amp; Cultural Development Officer — Banyule City Council (2010–2011)</li>
-            <li>Community Arts Coordinator — Auckland City Council (2007–2009)</li>
-            <li>Education Program Manager — Auckland International Arts Festival (2006–2007)</li>
-            <li>Co-Founder &amp; Creative Producer — Ann's Street Party (2003–2006) · street festival acquired by Brisbane Festival</li>
+            <li>Chargée du développement artistique et culturel — Banyule City Council (2010–2011)</li>
+            <li>Coordinatrice des arts communautaires — Auckland City Council (2007–2009)</li>
+            <li>Responsable des programmes éducatifs — Auckland International Arts Festival (2006–2007)</li>
+            <li>Co-fondatrice &amp; Productrice — Ann's Street Party (2003–2006) · festival de rue acquis par le Brisbane Festival</li>
           </ul>
         </div>
 
@@ -630,32 +630,32 @@
   <!-- SKILLS -->
   <section id="skills">
     <div class="section-inner">
-      <p class="section-label">What I bring</p>
-      <h2 class="section-title">Skills &amp; Expertise</h2>
+      <p class="section-label">Ce que j'apporte</p>
+      <h2 class="section-title">Compétences</h2>
       <div class="skills-grid">
         <div class="skill-card">
-          <p class="skill-card-label">Enablement &amp; Learning Design</p>
-          <p class="skill-card-value">Curriculum development, multimodal delivery, onboarding strategy, global rollout</p>
+          <p class="skill-card-label">Enablement &amp; Ingénierie Pédagogique</p>
+          <p class="skill-card-value">Conception de curricula, délivrance multimodale, stratégie d'onboarding, déploiement mondial</p>
         </div>
         <div class="skill-card">
-          <p class="skill-card-label">Operations Management</p>
-          <p class="skill-card-value">End-to-end ops, team leadership, process design, vendor and stakeholder management</p>
+          <p class="skill-card-label">Management des Opérations</p>
+          <p class="skill-card-value">Pilotage opérationnel de bout en bout, management d'équipes, conception de processus, gestion des parties prenantes</p>
         </div>
         <div class="skill-card">
-          <p class="skill-card-label">Program Development</p>
-          <p class="skill-card-value">New product lines, cohort programs, subscription models, On Demand learning</p>
+          <p class="skill-card-label">Développement de Programmes</p>
+          <p class="skill-card-value">Nouvelles lignes de produits, programmes en cohortes, modèles d'abonnement, formations On Demand</p>
         </div>
         <div class="skill-card">
-          <p class="skill-card-label">Digital Transformation</p>
-          <p class="skill-card-value">CRM implementation, change management, organisational turnaround</p>
+          <p class="skill-card-label">Transformation Digitale</p>
+          <p class="skill-card-value">Implémentation CRM, conduite du changement, redressement organisationnel</p>
         </div>
         <div class="skill-card">
-          <p class="skill-card-label">Facilitation &amp; Workshops</p>
-          <p class="skill-card-value">1,000+ workshops delivered, design thinking, co-creation, soft skills development</p>
+          <p class="skill-card-label">Facilitation &amp; Ateliers</p>
+          <p class="skill-card-value">Plus de 1 000 ateliers animés, design thinking, co-création, développement des soft skills</p>
         </div>
         <div class="skill-card">
-          <p class="skill-card-label">Salesforce Platform</p>
-          <p class="skill-card-value">6× certified: AI Specialist, Service Cloud, Platform App Builder, Sales Cloud, Advanced Admin</p>
+          <p class="skill-card-label">Plateforme Salesforce</p>
+          <p class="skill-card-value">6 certifications : AI Specialist, Service Cloud, Platform App Builder, Sales Cloud, Advanced Admin</p>
         </div>
       </div>
     </div>
@@ -664,13 +664,13 @@
   <!-- EDUCATION -->
   <section id="education">
     <div class="section-inner">
-      <p class="section-label">Academic background</p>
-      <h2 class="section-title">Education</h2>
+      <p class="section-label">Formation académique</p>
+      <h2 class="section-title">Formation</h2>
       <div class="edu-grid">
         <div class="edu-card">
           <p class="edu-degree">Master of Business Administration</p>
-          <p class="edu-school">University of Melbourne</p>
-          <span class="edu-note">Dean's Award</span>
+          <p class="edu-school">Université de Melbourne</p>
+          <span class="edu-note">Prix du Doyen</span>
         </div>
         <div class="edu-card">
           <p class="edu-degree">Bachelor of Creative Industries</p>
@@ -687,11 +687,10 @@
       <a href="mailto:clareelizabethcarmody@gmail.com">clareelizabethcarmody@gmail.com</a><br>
       +61 435 009 759 &nbsp;·&nbsp; +33 666 265 200
     </div>
-    <a href="#top" class="footer-back">Back to top ↑</a>
+    <a href="#top" class="footer-back">Haut de page ↑</a>
   </footer>
 
   <script>
-    // Scroll-reveal for jobs, skill cards, edu cards, and earlier roles
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, i) => {
         if (entry.isIntersecting) {
